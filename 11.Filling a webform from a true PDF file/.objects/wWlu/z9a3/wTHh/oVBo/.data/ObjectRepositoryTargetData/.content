@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="slysvQj9lkGygXcWnqF_gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="docs.google.com/forms/d/e/1FAIpQLScCNarcBQqDlLKMBVSow2ElFfQw6UatkuutjuVklW2I9tRq_Q/viewform" CVScreenId="1ef847e6-356d-406b-a071-96996a64670e" CvElementArea="647, 806, 98, 39" CvTextArea="670, 817, 51, 15" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="673, 807, 47, 36" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' tag='SPAN' class='l4V7wb Fxmcue' aaname='' check:innerText='Submit' /&gt;" Guid="99a6b700-2976-4d25-b6b0-6ff078518ee7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Personal Details' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1ef847e6-356d-406b-a071-96996a64670e" CvTextArea="1207, 819, 73, 12" CvTextArgument="Clear form" CvType="Text" DesignTimeRectangle="1209, 807, 72, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Clear form' tag='SPAN' type='' class='NPEfkd RveJvd snByac' check:innerText='Clear form' /&gt;" Guid="71719e7d-fa8f-407e-8bc7-f5f302f121b3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="86abc265c6c02bb70d649ccb2374b398.png" xmlns="">0KWWiGXsjmkKzQE8DnfjrQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

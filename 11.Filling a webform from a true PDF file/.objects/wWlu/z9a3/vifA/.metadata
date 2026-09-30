@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Contact Details - Google Forms",
+  "Type": "Screen",
+  "Id": "vifA3rsRuU--0_zxpD3gIg",
+  "Reference": "paqcUUb1s0OGO8v2QCAgcA/vifA3rsRuU--0_zxpD3gIg",
+  "ParentRef": "paqcUUb1s0OGO8v2QCAgcA/z9a3yOJuC0COyB5YMYKgaA",
+  "Created": "2026-07-01T06:40:17.9219651Z",
+  "Updated": "2026-07-01T06:40:17.9219651Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LG0sK_M7C0--0QO6UiAqqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="docs.google.com/forms/d/1pdRndJ-pVEKEu9JHuphktUrYs6G1y6oPJ4w0MV4qDV0/edit" DesignTimeRectangle="509, 726, 450, 30" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Short answer text' idx='2' tag='INPUT' /&gt;" Guid="da79bb72-df9d-4c30-9d33-e77d42a62019" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Contact Details - Google Forms' /&gt;" SearchSteps="Selector" Version="V4">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c73213930b2b35484008378605d0934.png" xmlns="">0fU4DVNzInU-3e0xcYl6xtg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">NativeTrigger</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,268 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="TriggerEventArgs" Type="InArgument(ui:EventInfoTriggerArgs)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>852,2452</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,2387.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:HotkeyTriggerV2 BlockEvent="False" DisplayName="Hotkey Trigger" Enabled="True" sap:VirtualizedContainerService.HintSize="449.6,188" sap2010:WorkflowViewState.IdRef="HotkeyTriggerV2_1" Key="r" KeyModifiers="Win" SchedulingMode="Sequential" TriggerId="c126b541-944d-46f0-98d9-56c8cc5a5d20" UseWindowsHotKey="False" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Run" sap:VirtualizedContainerService.HintSize="449.6,918.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="626a3db2-1d5b-40a4-8331-35083c338102" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,595.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '&amp;Open'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="626a3db2-1d5b-40a4-8331-35083c338102" Text="cleanmgr" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="6251537f-145f-4b66-b0dc-7621377523cf" CvElementArea="79, 129, 368, 32" CvType="InputBox" DesignTimeRectangle="85, 135, 337, 22" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='12298' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='12298' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="6d5bed23-5dad-4a4a-b79d-a84cd9dbbe19" InformativeScreenshot="54d3a21a08119d8285b117da246ea5ec.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='#32770' title='Run' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="6251537f-145f-4b66-b0dc-7621377523cf" CvTextArea="21, 138, 40, 16" CvTextArgument="Open:" CvType="Text" DesignTimeRectangle="23, 136, 56, 25" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='12305' title='&amp;amp;Open:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='12305' title='&amp;amp;Open:' check:text='&amp;amp;Open:' /&gt;" Guid="758839fa-1478-4e34-bdde-5b1a60f2213d" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="626a3db2-1d5b-40a4-8331-35083c338102" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="6251537f-145f-4b66-b0dc-7621377523cf" CvElementArea="133, 212, 100, 34" CvTextArea="170, 221, 22, 15" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="133, 213, 100, 35" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='OK' check:text='unchecked' /&gt;" Guid="e40bc999-a211-45bd-a35d-6af32c8e265f" InformativeScreenshot="0a2664e5282a8da22cef4d49e0400495.png" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='#32770' title='Run' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Windows\explorer.exe" IconBase64="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" InformativeScreenshot="426f044e94439f8127deae4239d78940.png" Selector="&lt;wnd app='explorer.exe' cls='#32770' title='Run' /&gt;" Title="Run" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Disk Cleanup : Drive Selection" sap:VirtualizedContainerService.HintSize="449.6,343.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="2b4271b6-a2af-422e-b0c8-db0c5c781b91" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2b4271b6-a2af-422e-b0c8-db0c5c781b91" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="cd6f7dce-9f4d-40e1-ad49-34a188fcd579" CvElementArea="99, 147, 100, 27" CvTextArea="138, 155, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="99, 148, 100, 28" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='OK' check:text='OK' /&gt;" Guid="b1d8b7a2-d2ac-459d-938d-b657e40a12f1" InformativeScreenshot="0d104fd6c90269a5a33e415d18af76cf.png" ScopeSelectorArgument="&lt;wnd app='cleanmgr.exe' cls='#32770' title='Disk Cleanup : Drive Selection' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Windows\System32\cleanmgr.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVDSURBVFhH7dXrT1N3GAdwd8mSLVniy2XRDKdTdKCgqCi4YGRx3jJAFBwqba1EoRSQMVFBabEORCFZWHDAqM4hEqA3W+71IKi0XKRoKZcqnZvTLHth4j/w3fM71kqhOCciL9Zv8s1p0vbXT57z5HSWN9544403z2PSpc6mKk3aFAcVZq0UZo30sVmTrKYGOD82c+ltzOA6dWkg5NMS0gV92plFDrZnw2LMRm9zFrobj6G74Si6DBluWKqSoAJqBE1VSeXMGomySy2JcB4zfRlqz+KoYB28dgw9+hS0VYnRqBRAey4W12oSJ05Ww5rsrORx13RiCTabWsSgDNhrSAFXKYT6x2h06dNgNqTDbQV0z6bqXIHxWPUbmKzxoiBAVRwVQWjHcMcJ2Npz0E9rYNanE/AF+/ocCkI6sUnTh2VTpfK3n9V+8yQG2uXoa82G6cqhmccSKqyl6qDjdmumC8k63HEc9s5TNNlcWFxYJ3Q81n0FUF+26/HezXN8nD8x9RgvibiK05G4UBgDnVIMT9iRGwpY22S41ZTpvq9O6I26RGhLolEh+wJ5ib6I3zInzHn81DN8NZUbNKagv0GCll+FKM7ZjPKCHdD8LJqIvZ5DleMOl43u+gw0XRDgwqlwFKb647RkMd+8pMUQbp37+oAjXBo3zKWiv/4g6DV/tRBWW7oLxfJtKFFEepxsb30ayo6HuGCssv0LcVgYwIm2zZ3tPH7qGWlL4xjsdkMi6DWsTUmwtx2iqwRDV+kxpEmAtnwPzhz7CqV529FYeYAH3mog4IkQKA4sQsrOeYgO+wi7v/wYledkuP/HQwe1iPrq/1Lsy8P20aJmwyVHm+qICzbQLIH92iHYWpLpmo7BVinuNCbB2pyM6zX7UF0cw2MzD4Ri39fzsYNg0u0+SN/5CbL2zEed8iQDju3LY+lDPtRUah/VdYjVNgy9Xgv1pdNoupwJm/FbHsbQQ7SfVkLTrvJ4du1vSELV2a3IivflUXLRQhz5Zh4Ox/pANRHI13H/AZwM99CbHlGTdWjkHgwNTdBePgNjzXcuGFsDNlW2BgzfotwBmXgJjscvQK54EY7GfYr0mAXQXCxwncVQ9nsODNiG0HvLMhE4OjrqsN+9h0d//Y3fHzxyg7xM2WQNeh1Ulflga8Bg7Pb36RNgPL8Tufs/xwnBZ1AkBtFtj0P9lVoMDtl5lNWJutlpBtfWjuaW1onA/Px8xMTEIDIyEmVlZbBaB6aGpcnqqs+iuSodxou78X0GPT9/yoO5u9cNdaPTxKOaCGWob4TuigEarc4zMDY2Fv7+/vDz8+Prwg7YpoRtNXK4bbX9K0ql1qJOpUFtnZoB36a+xeNYCgoKEBcXh2XLlvFdunQpXwZmjYqKQnl5+Utjn+3Uf0HV1qlcJdL71Pd4HEthYSGEQiFWrFiB5cuXIzAwkG9AQMAE9HisJ1SPR5T+haixJdKH1A94HEtJSQmkUimCg4OxevVqrFq1CitXrkRQUJAL/Qw+Fh0fH48/Hz56LaiaWtVvl6trfqhQng8i0rvUd3gcS09PD0pLS6FQKCAQCLB+/XqsXbsWa9as8Yj23esLv81+PNpuv/vKKKqDYEXUFz+cnzx5EuFwOPo6OjpQXV2NiooK5OTkQCQSITw8HOvWrUNoaKgLvUS3BIG/BPLoO1br9KA8haA+1NTxWJlMBrFYjI0bNyIsLAwhW0IQvDWYR1ss/dOLmiyTYeVyORISErBp0yZs2LABfRaLJxDr60dNlsmwubm544FvDjVZxmJNJhP715l5lDfe/D8za9Y/DDhuLi8CtvoAAAAASUVORK5CYII=" InformativeScreenshot="42212704b1f9f0a17cd78dfc68c89b71.png" Selector="&lt;wnd app='cleanmgr.exe' cls='#32770' title='Disk Cleanup : Drive Selection' /&gt;" Title="Disk Cleanup : Drive Selection" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Disk Cleanup for Windows (C:)" sap:VirtualizedContainerService.HintSize="449.6,848.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="2d486064-761c-4be9-8433-47d7b03903f0" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,534.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d486064-761c-4be9-8433-47d7b03903f0" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="dfd849c8-5a1d-4b90-8aa7-c599d5cf1b18" CvElementArea="286, 516, 99, 27" CvTextArea="325, 523, 21, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="287, 517, 100, 28" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='OK' check:text='unchecked' /&gt;" Guid="92473539-a8d5-488d-be9e-f6d680c1d65c" InformativeScreenshot="251e4a3991fd1f5aa75998f69ba738cd.png" ScopeSelectorArgument="&lt;wnd app='cleanmgr.exe' cls='#32770' title='Disk Cleanup for Windows (C:)' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d486064-761c-4be9-8433-47d7b03903f0" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="f751ad60-aaa3-492d-abd6-b12018bbc238" CvElementArea="220, 155, 119, 28" CvTextArea="240, 161, 79, 15" CvTextArgument="Delete Files" CvType="Button" DesignTimeRectangle="221, 156, 120, 29" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='Disk Cleanup' cls='DirectUIHWND' /&gt;&lt;wnd cls='Button' title='Delete Files' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Disk Cleanup' cls='DirectUIHWND' /&gt;&lt;wnd cls='Button' title='Delete Files' check:text='unchecked' /&gt;" Guid="492673dd-ff66-4015-97e5-d395bb274d58" InformativeScreenshot="ca9f179e5a975b11b223120b14e2cff8.png" ScopeSelectorArgument="&lt;wnd app='cleanmgr.exe' cls='#32770' title='Disk Cleanup' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Windows\System32\cleanmgr.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJVSURBVDhP7dHvTxJxHAdw14Me8wf4wLY21yNgjnxYW5MH1IOWT1ptzU23WEcKpLgWUwZJowe6WtjaYJlbIQkcd2YJnPkjOO7O1EQhltVRTaMe+g+8+94JZXPSrB70oPf2fnLffV7fz93V/c/fyVKi57TAWiEwXRCZTojxzqHK0e+lMOe05udcWOH6kKGt4OOdCi4TXBbjl8kFFlqiLW0STWkqI79Ocd7Ztso5XM+C5+6/nu8juBPSZDcEtmt7c3KJghOY4NT+cPGJfZlcgDcZD4rp68g974c4YdvxSdStwQ630pWR2ilM21wvImZwoYuYDlNQ8HV+APnZfixN9YL2t2L46lHctBxBZaR25IzDVeJ7obQ4cwXcow48He1AKnQJOc6BW9062M8egstyAh8+bQ6R6iqjP0IeakjbSGlJEiDOPYQ05VHRatdSNtwbOIX2k/VwXjiM29fOKGC126+/tbWlyRcK9Gb5687D71VwieCLiX68T/eQn9KuYj7rMbDhu3j7roTcah68IM5UweM+nw8tLS1wu93IZgXshS8sCOCnR5GcYvFycRlpXkAixYGdmESMjs8S7oAKDg4OQq/XQ6fTQavVwmg0wu3xICuI2Pj8BaWPG1gnm6yQTX5GGERjNCLRGEJj4SQBDypgA8MwoChK3bK5uRkGgwFNTU1oPN+IO34/QbJIJHcjSscj0Vehscf2Ae+NenVDJQTVybI8JAiCHAgEYDabYTKZoHVq4fV6dyGky6TW8UisQQVqZSceDAYxMvJg/8heUfByufxnyD+WurpvWVULt0172fkAAAAASUVORK5CYII=" InformativeScreenshot="984679ab56ade3792a76d8bc61ad8e26.png" Selector="&lt;wnd app='cleanmgr.exe' cls='#32770' title='Disk Cleanup for Windows (C:)' /&gt;" Title="Disk Cleanup for Windows (C:)" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

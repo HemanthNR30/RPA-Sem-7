@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Personal Details",
+  "Type": "Screen",
+  "Id": "wTHhemzws02KsVKV337TeA",
+  "Reference": "paqcUUb1s0OGO8v2QCAgcA/wTHhemzws02KsVKV337TeA",
+  "ParentRef": "paqcUUb1s0OGO8v2QCAgcA/z9a3yOJuC0COyB5YMYKgaA",
+  "Created": "2024-11-17T13:25:55.3990231Z",
+  "Updated": "2024-11-17T13:25:55.3990231Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

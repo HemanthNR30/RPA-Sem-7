@@ -1,0 +1,12 @@
+﻿{
+  "Name": "New Microsoft Word Document - Word",
+  "Type": "App",
+  "Id": "3aoyturAv0iuqWW0nq1uqA",
+  "Reference": "paqcUUb1s0OGO8v2QCAgcA/3aoyturAv0iuqWW0nq1uqA",
+  "Created": "2026-07-01T06:19:46.4815331Z",
+  "Updated": "2026-07-01T06:19:46.4815331Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Clear form",
+  "Type": "Element",
+  "Id": "oVBo9evyOE24avwSFDq-CQ",
+  "Reference": "paqcUUb1s0OGO8v2QCAgcA/oVBo9evyOE24avwSFDq-CQ",
+  "ParentRef": "paqcUUb1s0OGO8v2QCAgcA/wTHhemzws02KsVKV337TeA",
+  "Created": "2024-11-17T14:01:44.4453837Z",
+  "Updated": "2024-11-17T14:01:44.4453837Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

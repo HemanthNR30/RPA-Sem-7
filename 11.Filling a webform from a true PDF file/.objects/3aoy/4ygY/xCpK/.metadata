@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Microsoft Word Document - Word",
+  "Type": "Screen",
+  "Id": "xCpKUkase0yu56torS4eAA",
+  "Reference": "paqcUUb1s0OGO8v2QCAgcA/xCpKUkase0yu56torS4eAA",
+  "ParentRef": "paqcUUb1s0OGO8v2QCAgcA/4ygYc9fBQEGw3Uc_e_-_Bg",
+  "Created": "2026-07-01T06:19:46.8622254Z",
+  "Updated": "2026-07-01T06:19:46.8622254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
